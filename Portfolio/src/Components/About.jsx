@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="about text-center">
       <h2 className="text-[30px] block font-bold">
-        <span className="text-[35px] text-[--blue]">- </span>About Me
+        <span className="text-[35px] text-[--blue]">-{" "}</span>About Me
       </h2>
       <h2 className="text-[40px] block font-bold leading-[1.2] mb-[15px] mt-10">
         Who is{" "}
