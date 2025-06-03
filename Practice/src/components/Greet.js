@@ -1,5 +1,3 @@
-import React from "react";
-
 //Functional Component
 // function Greet(){
 //     return <h1>Hello Suhani!</h1>
@@ -13,6 +11,6 @@ const Greet = (props) => {
             <h1>Hello {name}</h1>
             {props.children}
         </div>
-    )   
+    );
 }
 export default Greet;

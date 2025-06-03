@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 class Counter extends Component {
     constructor(props){
@@ -27,12 +27,12 @@ class Counter extends Component {
     }
 
   render() {
-    return (
-        <div>
-            <div>Count - {this.state.count}</div>
-            <button onClick={() => this.incrementFive()}>Increment</button>
-        </div>
-    )
+      return (
+          <div>
+              <div>Count - {this.state.count}</div>
+              <button onClick={() => this.incrementFive()}>Increment</button>
+          </div>
+      );
   }
 }
 

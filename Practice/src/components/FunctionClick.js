@@ -1,5 +1,3 @@
-import React from 'react'
-
 function FunctionClick() {
 
     function clickHandler(){
@@ -7,9 +5,9 @@ function FunctionClick() {
     }
   return (
     <div>
-        <button onClick={clickHandler}>Click</button>
+      <button onClick={clickHandler}>Click</button>
     </div>
-  )
+  );
 }
 
 export default FunctionClick;

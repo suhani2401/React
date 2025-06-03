@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 //State 
 class Message extends Component {
@@ -16,12 +16,12 @@ class Message extends Component {
     }
 
     render(){
-        return(
+        return (
             <div>
                 <h1>{this.state.Message}</h1>
                 <button onClick={() => this.changeMessage()}>Subscribe</button>
             </div>
-        ) 
+        );
     }
 }
 

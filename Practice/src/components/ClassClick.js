@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 
 class ClassClick extends Component {
-  clickHandler(){
+  clickHandler () {
     console.log('Button Clicked')
   }
   render() {
@@ -9,7 +9,7 @@ class ClassClick extends Component {
       <div>
         <button onClick={this.clickHandler}>Click Me</button>
       </div>
-    )
+    );
   }
 }
 
